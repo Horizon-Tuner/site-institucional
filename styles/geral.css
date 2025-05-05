@@ -1,0 +1,31 @@
+:root {
+    --branco: #F8F9FA;
+    --preto:#1C1C1C;
+    --azul-metalico: #0077B6;
+    --preto-transparent: #1C1C1C;
+    --preto-fundo: #1a1a1ae3;
+    --background-botao: #C1121F;
+}
+
+@font-face {
+font-family:'fontTitulo';
+src:url("../fontes/Futura-Extra-Black-Condensed-Italic.otf");
+}
+
+@font-face {
+font-family:'fontParagrafo';
+src:url("../fontes/akzidenz-grotesk-bq-extended.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a,
+button, body{
+    cursor: url('../imagens/body/cursor.png'), auto;
+    font-family: 'fontParagrafo';
+
+}
