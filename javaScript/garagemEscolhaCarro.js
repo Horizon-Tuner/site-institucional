@@ -397,7 +397,7 @@ const carros = [
     },
     {
         marca: "Mclaren",
-        modelo: "f1",
+        modelo: "F1",
         ano: "1993",
         classe: "SPORTS CARS",
         logo: "../imagens/mclaren/logo-mclaren.png",
@@ -418,7 +418,6 @@ const carros = [
         linkConfig: "../screens/login.html"
     }
 ];
-
 
 function exibirCarro(index) {
     const carro = carros[index];
